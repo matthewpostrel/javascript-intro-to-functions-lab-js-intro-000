@@ -15,6 +15,5 @@ console.log(string.toLowerCase())
 }
 
 function sayHiToGrandma(string) {
-if ((string )===uppercase) {
-return "YES INDEED!"
+
 }
