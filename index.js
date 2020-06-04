@@ -15,16 +15,11 @@ console.log(string.toLowerCase())
 }
 
 function sayHiToGrandma(string) {
-
-      if (string === string.toLowerCase()){
-        var lowerCase = string.toLowerCase();
-        return ('I can\'t hear you!');
-      }
-      else if (string === string.toUpperCase()){
-        var upperCase = 'YES INDEED!';
-        return ('YES INDEED!');
-        }
-        else{
-          var mixedCase = 'I love you, too.';
-          return(mixedCase);
-        }
+  if (string === string.toLowerCase()) {
+      return "I can't hear you!";
+  }
+  else if (string === string.toUpperCase()) {
+      return "YES INDEED!";
+  } else if ('I love you, Grandma.') {
+    return 'I love you, too.'
+  }
